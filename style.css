@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+.box {
+    margin-left: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    padding: 20px;
+    border-radius: 4px;
+    /* width: 45%; */
+}
+#boxInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 200px;
+    width: 300px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: lightgray;
+    align-items: center;
+    height: 250px;
+    padding: 20px;
+    border-radius: 4px;
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox .check {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#mutch {
+    border-radius: 10px;
+    border: 1px solid rgb(197, 191, 191);
+    outline: none;
+}
+
+.box input {
+    width: 95%;
+    height: 30px;
+}
+
+.box input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+#add,
+#buy {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+#add{
+background-color: DarkOrange;
+}
+#buy{
+background-color: DarkSeaGreen;
+}
+
+.buyCount {
+    border: 1px solid rgb(161, 159, 159);
+    width: 91%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    color: LightSeaGreen;
+    align-items: center;
+    font-size: 15px;
+    overflow: auto;
+    text-align: center;
+}
+
+span{
+    margin-bottom: 3px;
+}
+#boxInfo{
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="box">
+            Balance
+            <input type="text" disabled id="balance" >
+            Beer
+            <input type="text" disabled id="beer" value="200шт">
+            Wine
+            <input type="text" disabled id="wine" value="80шт">
+            pepsi
+            <input type="text" disabled id="pepsi" value="50шт">
+        </div>
+        <div class="box">
+
+            quantity
+            <input type="text" id="countVal">
+            <div class="checkbox">
+                <input type="radio" name="radio"  class="check" value="beer">Beer
+                <input type="radio" name="radio"  class="check" value="wine">Wine
+                <input type="radio" name="radio"  class="check" value="pepsi">Pepsi
+            </div>
+            <input type="button" id="add" value="Add">
+
+            <div class="buyCount">
+
+            </div>
+
+            <input type="button" id="buy" value="Buy">
+        </div>
+        <div  id="boxInfo">
+            Info
+        </div>
+    </div>
+
+
+
+
+
+    <script src="SHOP.module.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
